@@ -126,15 +126,26 @@
 
     &-nav {
       order: 1;
+      margin-top: 30px;
+      &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
       &__item {
+        p {
+          font-size: 14px;
+          text-align: center;
+        }
         &:last-child {
-          margin-left: 110px;
+          width: 130px;
         }
       }
     }
 
     .form-input {
       width: 310px;
+      height: 40px;
       margin-left: 12px;
     }
     .contacts-info {

@@ -121,12 +121,28 @@
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1;
+    margin-top: 30px;
+  }
+  .contacts-nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contacts-nav__item p {
+    font-size: 14px;
+    text-align: center;
   }
   .contacts-nav__item:last-child {
-    margin-left: 110px;
+    width: 130px;
   }
   .contacts .form-input {
     width: 310px;
+    height: 40px;
     margin-left: 12px;
   }
   .contacts .contacts-info {

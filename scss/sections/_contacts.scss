@@ -20,92 +20,99 @@
   }
 
   &-nav {
+    display: flex;
+    flex-wrap: wrap;
     &__list {
       width: 100%;
     }
     &__item {
       margin-top: 25px;
-    }
-    &__link {
       @include font(16px, 22px);
       letter-spacing: 0.05em;
       text-transform: uppercase;
       color: $text-white;
-      position: relative;
-      &::before {
-        content: " ";
-        position: absolute;
-        left: 0;
-        bottom: -2px;
-        width: 100%;
-        height: 2px;
-        transform: scale(0);
-        background-color: $bg-orange;
-        transition: 0.4s;
-      }
-      &:hover {
-        &::before {
-          transform: scale(1);
-        }
-      }
-    }
-  }
-
-  &-info {
-    width: 40%;
-    &__title {
-      margin-top: 20px;
-      @include font2(12px, 18px);
-      color: $color-light-gray;
-      width: 390px;
-    }
-    &__item {
-      input {
-        margin: 20px;
-        background: #444444;
-        border: 1px solid #616161;
-        width: 180px;
-        height: 35px;
-        outline: none;
-        border-bottom-width: 2px;
-        padding-left: 15px;
-        transition: all 0.3s ease;
-        color: $text-white;
-        &:hover {
-          color: $text-orange;
-          background-color: transparent;
-          border-color: $text-orange;
-        }
-        &:hover path {
-          fill: $text-white;
-        }
-        &::-webkit-outer-spin-button,
-        &::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-        }
-        &[type="number"] {
-        -moz-appearance: textfield; 
-
-      }
-      }
       
     }
-  }
+    }
 
-  &-messange {
-    &__sms {
-      margin-top: 20px;
-      input {
-        width: 310px;
-        height: 110px;
-        background: #444444;
-        border: 1px solid #616161;
-        border-bottom-width: 2px ;
-        padding-left: 15px;
-        transition: 0.3s;
-        color: $text-white;
+    &-info {
+      width: 40%;
+      &__title {
+        margin-top: 20px;
+        @include font2(12px, 18px);
+        color: $color-light-gray;
+        width: 390px;
+      }
+      &__item {
+        input {
+          margin: 20px;
+          background: #444444;
+          border: 1px solid #616161;
+          width: 180px;
+          height: 35px;
+          outline: none;
+          border-bottom-width: 2px;
+          padding-left: 15px;
+          transition: all 0.3s ease;
+          color: $text-white;
+          &:hover {
+            color: $text-orange;
+            background-color: transparent;
+            border-color: $text-orange;
+          }
+          &:hover path {
+            fill: $text-white;
+          }
+          &::-webkit-outer-spin-button,
+          &::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+          }
+          &[type="number"] {
+          -moz-appearance: textfield; 
+  
+        }
+        }
+        
+      }
+    }
+  
+    &-messange {
+      &__sms {
+        margin-top: 20px;
+        input {
+          width: 310px;
+          height: 110px;
+          background: #444444;
+          border: 1px solid #616161;
+          border-bottom-width: 2px ;
+          padding-left: 15px;
+          transition: 0.3s;
+          color: $text-white;
+          outline: none;
+          &:hover {
+            color: $text-orange;
+            background-color: transparent;
+            border-color: $text-orange;
+          }
+          &:hover path {
+            fill: $text-orange;
+          }
+        }
+      }
+      &__button {
+        margin-top: 40px;
+        margin-left: 110px;
+        @include font(18px, 25px);
+        display: inline-block;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: $color-white;
+        padding: 17px 47px;
+        background: $bg-orange;
         outline: none;
+        border: 3px solid transparent;
+        transition: 0.3s;
         &:hover {
           color: $text-orange;
           background-color: transparent;
@@ -116,27 +123,7 @@
         }
       }
     }
-    &__button {
-      margin-top: 40px;
-      margin-left: 110px;
-      @include font(18px, 25px);
-      display: inline-block;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: $color-white;
-      padding: 17px 47px;
-      background: $bg-orange;
-      outline: none;
-      border: 3px solid transparent;
-      transition: 0.3s;
-      &:hover {
-        color: $text-orange;
-        background-color: transparent;
-        border-color: $text-orange;
-      }
-      &:hover path {
-        fill: $text-orange;
-      }
-    }
   }
-}
+
+  
+
