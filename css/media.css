@@ -1,4 +1,18 @@
 @media screen and (max-width: 812px) {
+  .hero__subtitle {
+    margin-bottom: 60px;
+    width: 350px;
+    font-size: 15px;
+  }
+  .hero__slider {
+    display: none;
+  }
+  .hero__title {
+    font-size: 50px;
+    padding-top: 265px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
   .container {
     padding: 0 20px;
   }
@@ -8,9 +22,6 @@
   .col-5,
   .col-3 {
     width: 100%;
-  }
-  .hero__slider {
-    display: none;
   }
   .about {
     margin-top: 80px;

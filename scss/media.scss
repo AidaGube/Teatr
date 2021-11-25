@@ -1,25 +1,21 @@
 @media screen and (max-width: 812px) {
 
-  .hero {
-   h1 {
-      padding-top: 280px;
-      margin-bottom: 50px;
-      @include font(30px, 50px);
-      text-transform: uppercase;
-      color: $text-white;
-   }
-   
-    &__subtitle {
-      margin-bottom: 50px;
-      width: 540px;
-      @include font2(14px, 21px);
-      color: $text-white;
-    }
+  .hero__subtitle {
+    margin-bottom: 60px;
+    width: 350px;
+    font-size: 15px;
+  }
 
-    &__slider {
+    .hero__slider {
       display: none;
     }
-  }
+
+  .hero__title {
+    font-size: 50px;
+    padding-top: 265px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+ }
 
 
   .container {
@@ -94,7 +90,6 @@
         width: 50%;
         font-size: 50px;
         line-height: 65px;
-        color: $text-orange;
       }
     }
 
@@ -159,7 +154,6 @@
         p {
           font-size: 14px;
           text-align: center;
-          color: $text-white;
         }
         &:last-child {
           width: 130px;
