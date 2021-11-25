@@ -31,24 +31,12 @@
   }
 }
 
-
-.burger-menu {
-  display: flex;
-justify-content: space-between;
-  &__content {
-    display: flex;
-  }
-  &__control {
-    display: none;
-  }
-}
-
-
-
-
 .menu {
   display: flex;
   align-items: center;
+  &-social {
+    display: none;
+  }
   &__link {
     @include font(18px);
     letter-spacing: 0.1em;
@@ -61,7 +49,9 @@ justify-content: space-between;
     color: $text-orange;
   }
 }
-
+.sidebar {
+  display: none;
+}
 .fixed-panel {
   position: fixed;
   top: 0;
@@ -115,10 +105,18 @@ justify-content: space-between;
   width: 100%;
   height: 100vh;
   background: url("../img/main.jpg") center/cover no-repeat;
-
+ 
   &__phone {
-    opacity: 0;
+    display: none;
+    @include font(16px, 25px);
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $text-white;
+    border-bottom: 2px solid $bg-orange;
+    padding-bottom: 5px;
   }
+  
   
   &__row {
     position: relative;

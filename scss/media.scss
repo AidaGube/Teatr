@@ -1,38 +1,90 @@
 @media screen and (max-width: 812px) {
-
-  .hero__subtitle {
-    margin-bottom: 60px;
-    width: 350px;
-    font-size: 15px;
+  .header__container {
+    max-width: 100%;
+    padding: 0 25px;
   }
 
-    .hero__slider {
+  .menu {
+    align-items: stretch;
+    flex-direction: column;
+    align-self: flex-start;
+    position: fixed;
+    overflow-y: auto;
+    background-color: #333333;
+    padding-top: 140px;
+    padding-left: 24px;
+    top: 0;
+    left: 0;
+    max-width: 300px;
+    width: 100%;
+    height: 810px;
+    .menu__link {
+      margin-bottom: 60px;
+      font-size: 22px;
+    }
+    .menu-social {
+      display: block;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      margin-left: 20px;
+
+      &__icons {
+        margin: 0 30px;
+        img {
+          padding-top: 50px;
+        }
+      }
+    }
+  }
+
+  
+  .hero {
+    &__subtitle {
+      margin-bottom: 60px;
+      width: 350px;
+      font-size: 15px;
+    }
+
+    &__slider {
       display: none;
     }
 
-  .hero__title {
-    font-size: 50px;
-    padding-top: 200px;
-    margin-bottom: 50px;
-    text-transform: uppercase;
- }
- .hero__button {
-  padding: 14px 47px;
- }
+    &__title {
+      font-size: 50px;
+      padding-top: 200px;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+    }
+    &__button {
+      padding: 14px 47px;
+    }
 
+    &__phone {
+      display: block;
+      border-bottom: 2px solid #d1a954;
+      width: 120px;
+      position: absolute;
+      left: 225px;
+      top: 56px;
+    }
+  }
 
+  .header__phone {
+    display: none;
+  }
   .container {
     padding: 0 20px;
   }
   .fixed-panel {
     display: none;
   }
+
   .col-5,
   .col-3 {
     width: 100%;
   }
 
- .about {
+  .about {
     margin-top: 80px;
     &__title {
       text-align: center;
@@ -93,7 +145,7 @@
         width: 50%;
         font-size: 50px;
         line-height: 65px;
-        color: #D1A954;
+        color: #d1a954;
       }
     }
 
@@ -201,5 +253,19 @@
       width: 190px;
       padding: 0 10px 10px;
     }
+  }
+}
+
+@media screen and (max-width: 1397px) {
+  .hero__slider {
+    display: none;
+  }
+  .header__phone {
+    display: none;
+  }
+  .hero__phone {
+    display: block;
+    border-bottom: 2px solid #d1a954;
+    width: 120px;
   }
 }

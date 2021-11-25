@@ -24,15 +24,32 @@
     
       <header class="header">
         <div class="container header__container">
-              <nav class="menu">
-                <a class="menu__link" href="#">Главная</a>
-                <a class="menu__link" href="#">О театре</a>
-                <a class="menu__link" href="#">Наши постановки</a>
-                <a class="menu__link" href="#">Партнеры театра</a>
-                <a class="menu__link" href="#">Контакты</a>
-              </nav> 
+          <div class="sidebar-menu">
+            <a href="#" class="sidebar-menu__button">
+              <span class="sidebar-menu__lines"></span> </a>
+            <nav class="menu">
+              <a class="menu__link" href="#">Главная</a>
+              <a class="menu__link" href="#">О театре</a>
+              <a class="menu__link" href="#">Наши постановки</a>
+              <a class="menu__link" href="#">Партнеры театра</a>
+              <a class="menu__link" href="#">Контакты</a>
+            <div class="menu-social">
+              <a class="menu-social__icons" href="#">
+                <img src="./img/menu-inst.png" alt="" />
+              </a>
+              <a class="menu-social__icons"  href="#">
+                <img src="./img/menu-face.png" alt="" />
+              </a>
+              <a class="menu-social__icons" href="#">
+                <img src="./img/menu-vk.png" alt="" />
+              </a>
+              <a class="menu-social__icons"  href="#">
+                <img src="./img/menu-you.png" alt="" />
+              </a>
+            </div>
+            </nav> 
+            <div class="sidebar-menu__overlay"></div>
           <a class="header__phone" href="#">+7 495 123-45-67</a>
-         
           <div class="burger-menu burger-menu__opened">
             <div class="burger-menu__content">
           <div class="fixed-panel">  
@@ -56,12 +73,14 @@
       </header>
     </div>
   </div>
-      <button class="burger-menu__control"> </button>
+</div>
+
       
       <main>
 
         <div class="hero">
           <div class="container">
+            <a class="hero__phone" href="#">+7 495 123-45-67</a>
             <div class="hero__row">
               <div class="hero__item">
                 <div class="hero__content">
@@ -107,6 +126,7 @@
             </div>
           </div>
         </div>
+
         <section class="about">
           <div class="container">
             <div class="text-center">
@@ -234,7 +254,6 @@
           </div>
         </section>
 
-
         <section class="raiting">
           <div class="container raiting__container">
             <div class="raiting__row">
@@ -301,8 +320,6 @@
           </div>
         </section>
 
-
-
         <section class="contacts">
           <div class="container contacts__container">
             <h2>стать <span> меценатом</span></h2>
@@ -355,10 +372,6 @@
           </div>
         </section>
 
-
-
-
-
         <footer class="footer">
           <div class="container">
             <div class="footer__row">
@@ -374,5 +387,6 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/sidebar.js"></script>
+
   </body>
 </html>
