@@ -1,4 +1,27 @@
 @media screen and (max-width: 812px) {
+
+  .hero {
+   h1 {
+      padding-top: 280px;
+      margin-bottom: 50px;
+      @include font(30px, 50px);
+      text-transform: uppercase;
+      color: $text-white;
+   }
+   
+    &__subtitle {
+      margin-bottom: 50px;
+      width: 540px;
+      @include font2(14px, 21px);
+      color: $text-white;
+    }
+
+    &__slider {
+      display: none;
+    }
+  }
+
+
   .container {
     padding: 0 20px;
   }
@@ -10,11 +33,7 @@
     width: 100%;
   }
 
-  .hero__slider {
-    display: none;
-  }
-
-  .about {
+ .about {
     margin-top: 80px;
     &__title {
       text-align: center;
@@ -35,6 +54,7 @@
       }
     }
   }
+
   .text-center {
     margin-bottom: 50px;
     h2 {
