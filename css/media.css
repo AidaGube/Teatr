@@ -86,6 +86,7 @@
     width: 50%;
     font-size: 50px;
     line-height: 65px;
+    color: #D1A954;
   }
   .raiting__content p {
     width: 200px;
@@ -150,6 +151,7 @@
   .contacts-nav__item p {
     font-size: 14px;
     text-align: center;
+    color: white;
   }
   .contacts-nav__item:last-child {
     width: 130px;
