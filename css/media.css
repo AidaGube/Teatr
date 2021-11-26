@@ -193,16 +193,13 @@
   }
   .footer {
     margin-top: 35px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
   .footer__text {
     width: 190px;
-    padding: 0 10px 10px;
+    margin: 0 20px 0 0;
+  }
+  .footer__row {
+    padding: 25px 10px 15px 0px;
   }
 }
 
