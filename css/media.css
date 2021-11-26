@@ -54,6 +54,7 @@
     width: 30px;
     height: 30px;
     z-index: 3;
+    top: 60px;
   }
   .header__burger span {
     background-color: #FFFFFF;
