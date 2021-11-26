@@ -291,6 +291,7 @@
   .header__body {
     position: fixed;
     height: 50px;
+    overflow: auto;
   }
   .header__menu {
     position: fixed;
