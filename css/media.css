@@ -192,11 +192,19 @@
     margin-left: 75px;
   }
   .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     margin-top: 35px;
   }
   .footer__text {
     width: 190px;
-    margin: 0 20px 0 0;
+    text-align: center;
   }
   .footer__row {
     padding: 25px 10px 15px 0px;

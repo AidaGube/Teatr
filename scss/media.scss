@@ -207,10 +207,13 @@
   }
 
   .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 35px;
     &__text {
       width: 190px;
-     margin: 0 20px 0 0;
+     text-align: center;
     }
     &__row {
       padding: 25px 10px 15px 0px;
