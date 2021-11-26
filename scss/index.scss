@@ -26,6 +26,9 @@
     margin: 0;
     border: 0;
   }
+  body._lock {
+overflow: hidden;
+  }
 
   *, *:before, *:after {
     box-sizing: border-box;
