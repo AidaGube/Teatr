@@ -306,7 +306,7 @@
     width: 30px;
     height: 30px;
     z-index: 3;
-    left: 0;
+    left: 200px;
   }
   .header__burger span {
     background-color: #fff;
