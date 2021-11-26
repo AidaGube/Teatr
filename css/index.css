@@ -302,6 +302,9 @@
     background-color: #333;
     padding: 140px 10px 20px 40px;
   }
+  .header__menu_active {
+    left: 0;
+  }
   .header__burger {
     display: block;
     position: fixed;
