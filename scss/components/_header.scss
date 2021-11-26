@@ -212,7 +212,7 @@
     left: -100%;
     width: 300px;
     height: 100%;
-    background-color: #333;
+    background-color: #333333;
     padding: 140px 10px 20px 40px;
   }
   .header__menu_active {
@@ -228,7 +228,7 @@
     top: 60px;
     
     span {
-      background-color: #fff;
+      background-color:  #FFFFFF;;
       position: absolute;
       width: 100%;
       height: 2.5px;
@@ -245,7 +245,7 @@
   .header__burger::before,
   .header__burger::after {
     content: " ";
-    background-color: #fff;
+    background-color:  #FFFFFF;
     position: absolute;
     width: 100%;
     height: 2px;
