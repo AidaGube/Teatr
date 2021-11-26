@@ -295,7 +295,7 @@
   .header__menu {
     position: fixed;
     top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
     height: 100%;
     background-color: #333;
@@ -307,6 +307,7 @@
     width: 30px;
     height: 30px;
     z-index: 3;
+    top: 60px;
   }
   .header__burger span {
     background-color: #fff;
