@@ -856,7 +856,10 @@
 }
 
 .contacts-nav__item {
-  margin-top: 25px;
+  margin: 20px 20px 30px 10px;
+}
+
+.contacts-nav__item a {
   font-family: 'Open Sans Condensed', sans-serif;
   font-style: normal;
   font-weight: bold;

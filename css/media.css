@@ -157,7 +157,10 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .contacts-nav__item p {
+  .contacts-nav__item {
+    margin: 25px 0px 10px;
+  }
+  .contacts-nav__item a {
     font-size: 14px;
     text-align: center;
     color: white;
@@ -189,6 +192,7 @@
     margin-left: 75px;
   }
   .footer {
+    margin-top: 35px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

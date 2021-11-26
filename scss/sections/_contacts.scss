@@ -26,12 +26,16 @@
       width: 100%;
     }
     &__item {
-      margin-top: 25px;
-      @include font(16px, 22px);
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: $text-white;
-      
+      margin: 20px 20px 30px 10px;
+      a {       
+        @include font(16px, 22px);
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: $text-white;
+        &:last-child {
+          font-size: ;
+        }
+      }
     }
     }
 
