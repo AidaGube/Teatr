@@ -288,7 +288,6 @@
     display: none;
   }
   .header__container {
-    max-width: 576px;
     padding: 0 25px;
   }
   .header__body {
@@ -297,14 +296,20 @@
     overflow: auto;
   }
   .header__menu {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     position: fixed;
     top: 0;
-    left: -100%;
+    left: 0;
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    max-width: 576px;
     background-color: #333333;
     padding: 140px 10px 20px 40px;
   }
   .header__menu_active {
-    left: 0;
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
   }
   .header__burger {
     display: block;
