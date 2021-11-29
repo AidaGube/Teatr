@@ -309,7 +309,7 @@
     left: 0;
   }
   .header__burger {
-    display: block;
+    display: inline-block;
     position: fixed;
     width: 30px;
     height: 30px;
