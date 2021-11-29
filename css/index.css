@@ -303,7 +303,7 @@
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     background-color: #333333;
-    padding: 140px 10px 20px 40px;
+    padding: 120px 10px 20px 40px;
   }
   ._active {
     -webkit-transform: translateX(0);
@@ -356,6 +356,7 @@
   }
   .header__burger._active {
     margin-left: 300px;
+    margin-top: 30px;
   }
   ._active span {
     -webkit-transform: scale(0) translate(0px, -50%);
@@ -372,7 +373,7 @@
             transform: rotate(45deg) translate(0px, 50%);
   }
   .menu__link {
-    max-width: 50%;
+    max-width: 40%;
     margin-bottom: 70px;
     font-size: 20px;
   }
@@ -380,14 +381,13 @@
     display: block;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-top: 10px;
   }
   .menu-social__icons {
     display: inline-block;
     margin: 0 50px;
   }
   .menu-social__icons img {
-    padding-top: 80px;
+    padding-top: 50px;
   }
 }
 
