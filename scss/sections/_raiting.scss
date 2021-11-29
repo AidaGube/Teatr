@@ -19,10 +19,9 @@
 
   &__years {
     margin-left: 20px;
-    padding-bottom: 10px;
-    span {
+    a{
       width: 182px;
-      @include font(60px,98px);
+      @include font(72px,98px);
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: $text-orange;

@@ -91,7 +91,7 @@
   .raiting__row {
     padding: 60px 0;
   }
-  .raiting__years h2 {
+  .raiting__years a {
     width: 50%;
     font-size: 50px;
     line-height: 65px;
